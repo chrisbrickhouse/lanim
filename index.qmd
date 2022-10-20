@@ -1,0 +1,86 @@
+---
+title: "Tutorial template"
+author: 
+  - name: "Robin Doe"
+    url: "http://www.example.com"
+    affiliations:
+      - University of State
+date: 2025-9-1
+license: "CC-BY-SA 4.0"
+format: 
+  html: default
+  pdf: default
+editor: visual
+knitr: 
+  opts_chunk: 
+    echo: true
+    message: false
+---
+
+This is intended to be a tutoral template for the [Linguistics Methods Hub](https://lingmethodshub.github.io/). You can fork and rename this repository, then proceed to delete and rename files as works best for your needs
+
+Template repository url: <https://github.com/LingMethodsHub/template>
+
+## Authoring
+
+### Writing `.md`, `.rmd` files
+
+All markdown, rmarkdown and quarto files will be rendered (except for any named `README*`), and can be written in your preferred way.
+
+[rmd output](00_rmarkdown_template.rmd)
+
+### Writing `.qmd` files
+
+You can write quarto documents exactly like rmarkdown files.
+
+[qmd output](01_qmd_template.qmd)
+
+### Jupyter
+
+You can also write tutorials in a jupyter notebook, and they will be rendered into the same output.
+
+[jupyter output](02_jupyter.ipynb)
+
+## Header information
+
+### Author information
+
+The author yaml information for this page is
+
+``` yaml
+author: 
+  - name: "Robin Doe"
+    url: "http://www.example.com"
+    affiliations:
+      - University of State
+```
+
+The full author schema, from the [quarto docs](https://quarto.org/docs/journals/authors.html), is
+
+``` yaml
+author:
+  - id: string
+    number: number
+    name:
+      given: string
+      family: string
+      literal: string
+      dropping-particle: string
+      non-dropping-particle: string
+    url: string
+    email: string
+    fax: string
+    orcid: string
+    note: string
+    acknowledgements: string
+    attributes:
+      corresponding: boolean
+      equal-contributor: boolean
+      deceased: boolean
+    metadata: object
+    affiliations: 
+```
+
+### Format
+
+If you include both information for both `html` and `pdf` output formats, they will both be generated, allowing a standalone pdf for printing etc: [pdf output](index.pdf).

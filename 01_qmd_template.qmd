@@ -1,0 +1,40 @@
+---
+title: "quarto doc template"
+author: 
+  - name: "Robin Doe"
+    url: "http://www.example.com"
+    affiliations:
+      - University of State
+date: 2025-9-1
+license: "CC-BY-SA 4.0"
+format: 
+  html: default
+  pdf: default
+editor: visual
+knitr: 
+  opts_chunk: 
+    message: false
+    warning: false
+---
+
+Quarto docs operate much the same way rmarkdown does.
+
+```{r}
+#| echo: fenced
+library(reticulate)
+```
+
+```{python}
+#| echo: fenced
+import numpy as np
+```
+
+```{python}
+#| echo: fenced
+a = np.random.rand(50,50)
+```
+
+```{r}
+#| echo: fenced
+image(py$a)
+```
