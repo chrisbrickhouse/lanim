@@ -1,12 +1,12 @@
 ---
-title: "Tutorial template"
+title: "Making linguistic animations using Manim"
 author: 
-  - name: "Robin Doe"
-    url: "http://www.example.com"
+  - name: "Christian Brickhouse"
+    url: "http://www.christianbrickhouse.com"
     affiliations:
-      - University of State
-date: 2025-9-1
-license: "CC-BY-SA 4.0"
+      - Stanford University
+date: 2022-10-20
+license: "CC-BY-SA 3.0+"
 format: 
   html: default
   pdf: default
@@ -16,71 +16,31 @@ knitr:
     echo: true
     message: false
 ---
+Manim is a python library primarily used to make mathematics animiations for educational YouTube videos. In this tutorial we will explore how this software can be used to create engaging visualizations of linguistic data and learn the basic building blocks of the animation software. 
 
-This is intended to be a tutoral template for the [Linguistics Methods Hub](https://lingmethodshub.github.io/). You can fork and rename this repository, then proceed to delete and rename files as works best for your needs
+## Learning goals
+By the end of this readers will 
+* develop a basic understanding of object-oriented programming
+* understand the basic building blocks of Manim
+* be able to create visualizations for explaining linguistic concepts
+* produce animated plots of phonetic data
 
-Template repository url: <https://github.com/LingMethodsHub/template>
+## Prerequisites
+This tutorial assumes that learners already have the following knowledge about Python:
+* the difference between the following types and how to manipulate them: strings, integers, floats, lists, and dictionaries
+* how to write and use custom functions
+* the basics of classes, specifically:
+** how to define a class
+** the `__init__` method
+** class attributes and methodsattributes, and the relationship between functions and methods
 
-## Authoring
+Additionally, learners should be comfortable navigating through folders in the terminal and running programs from the command line. 
 
-### Writing `.md`, `.rmd` files
-
-All markdown, rmarkdown and quarto files will be rendered (except for any named `README*`), and can be written in your preferred way.
-
-[rmd output](00_rmarkdown_template.rmd)
-
-### Writing `.qmd` files
-
-You can write quarto documents exactly like rmarkdown files.
-
-[qmd output](01_qmd_template.qmd)
-
-### Jupyter
-
-You can also write tutorials in a jupyter notebook, and they will be rendered into the same output.
-
-[jupyter output](02_jupyter.ipynb)
-
-## Header information
-
-### Author information
-
-The author yaml information for this page is
-
-``` yaml
-author: 
-  - name: "Robin Doe"
-    url: "http://www.example.com"
-    affiliations:
-      - University of State
-```
-
-The full author schema, from the [quarto docs](https://quarto.org/docs/journals/authors.html), is
-
-``` yaml
-author:
-  - id: string
-    number: number
-    name:
-      given: string
-      family: string
-      literal: string
-      dropping-particle: string
-      non-dropping-particle: string
-    url: string
-    email: string
-    fax: string
-    orcid: string
-    note: string
-    acknowledgements: string
-    attributes:
-      corresponding: boolean
-      equal-contributor: boolean
-      deceased: boolean
-    metadata: object
-    affiliations: 
-```
-
-### Format
-
-If you include both information for both `html` and `pdf` output formats, they will both be generated, allowing a standalone pdf for printing etc: [pdf output](index.pdf).
+## Overview
+This tutorial is divided into <TK> parts.
+1. This introduction
+2. An introduction to the basics of Manim and object-oriented programming more generally
+3. A worked example of <TK> which brings together concepts learned in the previous section
+4. An introduction to axes, plotting, and fine-grained control of animations
+5. A worked example of plotting and animating vowel data from a change-over-time
+6. Advice on advanced features and further reading
