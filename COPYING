@@ -1,0 +1,12 @@
+Copyright 2022 Christian Brickhouse
+
+== Summary ==
+To ensure the greatest possible range of re-use, the author offers and automatically grants you multiple simultaneous licenses. You may choose any one license, or a combination of licenses, as appropriate for the needs of your project. Simply distribute the software with whichever license files you would like to be granted. For example, if you would like to be granted ONLY the Creative Commons By-SA 4.0 license, delete all LICENSE files except LICENSE.CC4 when you distribute the repository.
+
+The simplest solution is to distribute the content as-is, and if you make modifications, to offer your contributions under the same constellation of licenses by adding your name to the copyright statement above.
+
+== Creative Commons grant ==
+The contents of this git repository are licensed to you under the terms of the Creative Commons Attribution-ShareAlike license version 3.0 or any later version with the same License Elements as published by the Creative Commons Foundation (see section 4a of the 3.0 license or 3b of the 4.0 license for further details). The text of versions 3.0 and 4.0 have been provided to you. See LICENSE.CC3 and LICENSE.CC4 for versions 3.0 and 4.0 respectively.
+
+== GNU General Public License grant ==
+The software in this repository is licensed to you under the terms of the GNU General Public License either version 2 or, at your option, any later version as published by the Free Software Foundation. The text of version 2 and 3 are provided in the LICENSE.GPL2 and LICENSE.GPL3 files respectively.
