@@ -12,3 +12,6 @@
 _site
 /env/
 /renv/
+
+*.swp
+/media/
